@@ -1,0 +1,122 @@
+.macouleur1 {
+    color: white;
+  }
+ 
+  .macouleur2 {
+    color: #cb6118;
+  }
+ 
+  .macouleur3 {
+    color: black;
+    font-size: 25px;
+  }
+ 
+  .macouleur4 {
+    color: #cb6118;
+    font-size: 25px;
+  }
+  .macouleur5 {
+   color:rgb(45, 158, 252)
+  }
+  
+ body {
+    font-family: arial black;
+    font-size: 12px;
+    background-color: white;
+  }
+  .bandeau {
+    background-color: black;
+    color: white;
+  }
+  .conteneur {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  header {
+    height: 80px;
+    width: auto;
+    margin: 0px auto;
+    position: relative;
+  }
+  
+  .titre {
+    font-size: 40px;
+  }
+ .menu001 ul {
+  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.50;
+    height: 35px;
+    background-color: lightgray;
+  }
+  .menu001 li {
+    float: right;
+    list-style-type: none ; 
+  }
+  .menu001  li a
+  {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: lightgrey;
+    font-size:15px;
+  }
+  .menu001  li a:hover {
+    color: white;
+    background-color: orange;
+    opacity: 1;
+  }
+.menuhaut {
+    color: lightgrey;
+    background-color: white;
+    margin-top: 50px;
+  
+  }
+  .contenant {
+    background-color: white;
+  }
+  
+
+  
+  div.items p {display: none}
+  div.items p:target {display: block}
+
+  .menuDuBas {
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+    text-align: left ;
+    border: 1px solid white;
+    width: 30%;
+    background-color: black;
+    color: white;
+    
+  }
+  .menuDuBas li {
+    display: inline ;
+    margin-right: 1px ;
+    color:  #fff ;
+    background:black ;  
+  }
+
+  .menuDuBas li a {
+    padding: 4px 20px ;
+    background:black ;
+    color: white;
+    border: 1px solid white ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+    
+  }
+  .menuDuBas li a:hover, .menuDuBas li a:focus, .menuDuBas li a:active {
+    background:  white ;
+ color: black;
+    text-decoration: none ;
+  }
+

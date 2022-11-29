@@ -1,0 +1,248 @@
+
+.macouleur1 {
+  color: white;
+}
+
+.macouleur2 {
+  color: #cb6118;
+}
+
+.macouleur3 {
+  color: black;
+  font-size: 25px;
+}
+
+.macouleur4 {
+  color: #cb6118;
+  font-size: 25px;
+}
+
+.macouleur5 {
+  color:rgb(45, 158, 252)
+}
+                                            
+
+body {
+  font-family: arial black;
+  font-size: 12px;
+  background-color: black;
+}
+ .bandeau {
+   background-color: black;
+   color: white;
+ }
+
+h2 {
+  text-align: center;
+}
+
+.conteneur {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+ header {
+   height: 80px;
+   width: 1280px;
+   margin: 0px auto;
+   position: relative;
+ }
+ .titre {
+   font-size: 40px;
+ }
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: white;
+   opacity: 0.50;
+ }
+ li {
+   float: right;
+ }
+ li a
+ {
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   background-color: white;
+ }
+ li a:hover {
+   color: white;
+   background-color: orange;
+   opacity: 1;
+ }
+ .contenu {
+   background-color: white;
+   color: black;
+ }
+ .main_form {
+   display: flex;
+ }
+ .whitespace {
+   flex: 1;
+ }
+ .location {
+   display: inline-block;
+   position: relative;
+ }
+ .location .texte_center {
+   background: orange;
+   opacity: 0.7;
+   position: absolute;
+   text-align: center;
+   font-family: Georgia;
+   margin-left: 150;
+   left: 20%;
+   right: 0;
+   top: 30%;
+   color: white;
+   width: 25%;
+ }
+ .location .texte_center2 {
+   background: red;
+   opacity: 0.7;
+   position: absolute;
+   text-align: center;
+   font-family: Georgia;
+   margin-right: 150;
+   left: 60%;
+   right: 0%;
+   top: 30%;
+   color: white;
+   width: 25%;
+ }
+
+ .vehiculesrec {
+   font-size: 40px;
+   background-color: black;
+   color: white;
+   text-align: center;
+ }
+
+ hr {
+   border: 1px solid orangered;
+   background-color: black;
+ }
+
+ .barre {
+   text-decoration: line-through;
+ }
+ .box {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+  background-color: black;
+  color: white;
+
+}
+.voiture {
+  margin-left: 5px;
+  text-align: center;
+  border : 1px solid rgb(59, 59, 59);
+  background-color: rgb(59, 59, 59);
+  height: 200px;
+}
+h6
+{
+  background-color: blue;
+  border: 1px solid blue;
+  width:50px;
+  position: relative; bottom:65px; left:200px;
+  font-size: 10px;
+}
+
+.nouschoisir {
+  background-color: white;
+  text-align: center;
+}
+
+.nouschoisir .macouleur3
+{
+  text-align: center;
+  font-size: 50px;
+}
+.pnc {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+.financement {
+
+}
+.reac {
+
+}
+.ecoute {
+
+}
+.service {
+ 
+}
+button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  height: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.venteetloca {
+  display: inline-block;
+  position: relative;
+}
+.venteetloca .texte_center {
+  background: orange;
+  opacity: 0.7;
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  margin-left: 150;
+  left: 20%;
+  right: 0;
+  top: 50px;
+  color: white;
+  width: 25%;
+}
+.venteetloca .texte_center span
+{
+  font-size: 30px;
+}
+.venteetloca .texte_center p {
+  color: black;
+}
+.foot {
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+.fin {
+  text-align: center;
+  background-color: black;
+  color: gray;
+}

@@ -1,0 +1,188 @@
+                     
+ .macouleur1 {
+  color: white;
+}
+
+.macouleur2 {
+  color: #cb6118;
+}
+
+.macouleur3 {
+  color: black;
+  font-size: 25px;
+}
+
+.macouleur4 {
+  color: #cb6118;
+  font-size: 25px;
+}
+.macouleur5 {
+ color:rgb(45, 158, 252)
+}
+body {
+  font-family: arial black;
+  font-size: 12px;  
+  }        
+.imagedefond {
+  background-repeat: no-repeat;
+ }
+
+.bandeau {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+.conteneur {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+header {
+  height: 80px;
+  width: auto;
+  margin: 0px auto;
+  position: relative;
+}
+
+.titre {
+  font-size: 40px;
+}
+ul {
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.50;
+  height: 35px;
+}
+li {
+  float: right;
+}
+li a
+{
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: white;
+  font-size:15px;
+}
+li a:hover {
+  color: white;
+  background-color: orange;
+  opacity: 1;
+}
+.location {
+  top: 50px;
+} 
+
+.location .texteCenter {
+opacity: 0.4;
+text-align: justify;
+padding-left: 350px;
+padding-top: 50px;
+font-family: Georgia;
+left: 0%;
+
+color: white;
+height: 175px;
+width: 1040px;
+background-color: gray;
+position: absolute;
+top: 120px;
+
+}
+.loca {
+font-size: 35px;
+}
+
+.contenant {
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.veh1 {
+  float: left;
+  margin-left: 35px;
+  display: block;
+ 
+}
+.veh2 {
+  float: left;
+  margin-left: 35px;  
+  display: block;
+  clear: left;
+  padding-top: 10px;
+ 
+}
+.veh3 {
+  float: left;
+  margin-left: 35px;  
+  display: block;
+  clear: left;
+ 
+}
+.veh4 {
+  float: left;
+  margin-left: 35px;  
+  display: block;
+  clear: left;
+
+}
+.esp
+{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+titreV1 {
+  height: 40px;
+}
+.tarif {
+  border: 1px solid blue;
+  color: white;
+  background-color: blue;
+  width: 75px;
+  height: 25px;
+  display: inline-block;
+  }
+.recherche {
+  border: 1px solid black;
+  right: 2px;
+  top: 45%;
+  width: 200px;   
+     font-weight: bold;
+  font-size: large;
+  text-align: center;
+color: white;   
+z-index: 2;
+}
+.imageico {
+background-color: black;
+color: white;
+width: auto;
+text-align: center;
+}
+.recherche p {
+  text-align: left;
+  color: black;
+}
+.prix {
+  color: black;
+}
+.foot {
+background-color: black;
+flex-direction: row;
+display: flex;
+justify-content: space-around;
+color: white;
+}
+.fin {
+text-align: center;
+background-color: black;
+color: gray;
+}
