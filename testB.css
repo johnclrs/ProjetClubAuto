@@ -1,0 +1,164 @@
+
+.macouleur1 {
+    color: white;
+  }
+  
+  .macouleur2 {
+    color: #cb6118;
+  }
+  
+  .macouleur3 {
+    color: black;
+    font-size: 25px;
+  }
+  
+  .macouleur4 {
+    color: #cb6118;
+    font-size: 25px;
+  }
+  
+  .macouleur5 {
+    color:rgb(45, 158, 252)
+  }
+.bandeau {
+    background-color: black;
+    color: white;
+}
+.menu {
+    width: 100%;
+    background-color: gray;
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+background-color: orange;
+color: white;
+}
+.meilleur {
+    background-color: black;
+    text-align: center;
+    font-size: 45px;
+}
+.location {
+    display: inline-block;
+    position: relative;
+  }
+  .location .texte_center {
+    background: orange;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin-left: 150;
+    left: 20%;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 25%;
+  }
+  .location .texte_center2 {
+    background: red;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin-right: 150;
+    left: 60%;
+    right: 0%;
+    top: 30%;
+    color: white;
+    width: 25%;
+  }
+  .vehiculesrec {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  hr {
+    border: 3px solid rgb(255, 205, 23);
+    width: 75%; 
+  }
+  .barre {
+    text-decoration: line-through;
+  }
+
+.nouschoisir p {
+    color: gray;
+}
+.prix
+{
+    font-size: x-large;
+    background-color: blue;
+    border: 1px solid blue;
+    width:100px;
+    position: relative; bottom:30px; left:180px;
+}
+button {
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    height: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .venteetloca {
+    display: inline-block;
+    position: relative;
+  }
+  .venteetloca .texte_center {
+    background: orange;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin-left: 150;
+    left: 20%;
+    right: 0;
+    top: 50px;
+    color: white;
+    width: 25%;
+  }
+  .venteetloca .texte_center span
+  {
+    font-size: 30px;
+  }
+  .venteetloca .texte_center p {
+    color: black;
+  }
+  .foot {
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+  .fin {
+    text-align: center;
+    background-color: black;
+    color: gray;
+  }
