@@ -1,206 +1,198 @@
-
 .macouleur1 {
   color: white;
 }
-
 .macouleur2 {
   color: #cb6118;
 }
-
 .macouleur3 {
   color: black;
-  font-size: 25px;
 }
-
 .macouleur4 {
   color: #cb6118;
-  font-size: 25px;
 }
-
 .macouleur5 {
   color:rgb(45, 158, 252)
 }
-                                            
-
+.bandeau {
+  background-color: black; }
 body {
-  font-family: arial black;
-  font-size: 12px;
-  background-color: black;
-}
- .bandeau {
-   background-color: black;
-   color: white;
- }
-
-h2 {
-  text-align: center;
-}
-
-.conteneur {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
- header {
-   height: 80px;
-   width: 1280px;
-   margin: 0px auto;
-   position: relative;
- }
- .titre {
-   font-size: 40px;
- }
- ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: white;
-   opacity: 0.50;
- }
- li {
-   float: right;
- }
- li a
- {
-   color: black;
-   text-align: center;
-   padding: 14px 16px;
-   background-color: white;
- }
- li a:hover {
-   color: white;
-   background-color: orange;
-   opacity: 1;
- }
- .contenu {
-   background-color: white;
-   color: black;
- }
- .main_form {
-   display: flex;
- }
- .whitespace {
-   flex: 1;
- }
- .location {
-   display: inline-block;
-   position: relative;
- }
- .location .texte_center {
-   background: orange;
-   opacity: 0.7;
-   position: absolute;
-   text-align: center;
-   font-family: Georgia;
-   margin-left: 150;
-   left: 20%;
-   right: 0;
-   top: 30%;
-   color: white;
-   width: 25%;
- }
- .location .texte_center2 {
-   background: red;
-   opacity: 0.7;
-   position: absolute;
-   text-align: center;
-   font-family: Georgia;
-   margin-right: 150;
-   left: 60%;
-   right: 0%;
-   top: 30%;
-   color: white;
-   width: 25%;
- }
-
- .vehiculesrec {
-   font-size: 40px;
-   background-color: black;
-   color: white;
-   text-align: center;
- }
-
- hr {
-   border: 1px solid orangered;
-   background-color: black;
- }
-
- .barre {
-   text-decoration: line-through;
- }
- .box {
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-  margin-right: 25px;
-  background-color: black;
-  color: white;
-
-}
-.voiture {
-  margin-left: 5px;
-  text-align: center;
-  border : 1px solid rgb(59, 59, 59);
-  background-color: rgb(59, 59, 59);
-  height: 200px;
-}
-h6
-{
-  background-color: blue;
-  border: 1px solid blue;
-  width:50px;
-  position: relative; bottom:65px; left:200px;
-  font-size: 10px;
-}
-
-.nouschoisir {
-  background-color: white;
-  text-align: center;
-}
-
-.nouschoisir .macouleur3
-{
-  text-align: center;
-  font-size: 50px;
-}
-.pnc {
-  flex-direction: row;
-  display: flex;
-  justify-content: space-around;
-}
-.financement {
-
-}
-.reac {
-
-}
-.ecoute {
-
-}
-.service {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  min-height: 200vh;
+  font-family: 'Cabin', Sans-serif;
  
 }
-button {
-  display: inline-block;
-  background-color: #7b38d8;
-  border-radius: 10px;
-  border: 4px double #cccccc;
-  color: #eeeeee;
+.telephone {
+  padding-top: 80px;
+}
+.meilleur {
   text-align: center;
-  font-size: 28px;
+  font-size: xx-large;
+}
+.meilleur2 {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 40px;
+}
+.bievenue {
+  text-align: center;
+  font-size: xx-large;
+}
+.article {
+  color: gray;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+#hamburger-input{
+  display: none;
+}
+#hamburger-menu {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: none;
+  padding: 0px;
+  margin: 20px;
+  position: fixed;
+  right: 25px;
+  background: linear-gradient(
+    to bottom, 
+    blue, blue 20%, 
+    rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 40%, 
+    blue 40%, blue 60%, 
+    rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, 
+    blue 80%, blue 100%
+  );
+}
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+#hamburger-menu h3 {
+  color: white;
+  font-size: 2.2rem;
+}
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+#hamburger-menu a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 750px) {
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+}
+.bg-image {
+  background-image: url('images/vente-location.jpg');
+  height: 100vh;
+}
+.mask {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255,187,0,0.6);
+  height: 40vh;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+.mask2 {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255,26,26,0.6);
+  height: 40vh;
+  margin-top: 35px;
+}
+.vehiculesrec {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+hr {
+  border: 3px solid rgb(255, 205, 23);
+  width: 75%; 
+}
+.prix
+{
+    font-size: x-large;
+    background-color: rgb(137, 137, 255);
+    border: 1px solid rgb(137, 137, 255);;
+    width:100px;
+  
+}
+.vehiculesrec {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.pnc {
+  background-color: white;
+  color: black;
+}
+button {
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
   padding: 20px;
-  width: 250px;
-  height: 120px;
+  width: 200px;
+  height: 60px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  text-decoration: none;
 }
 button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  text-decoration: none;
 }
 button span:after {
   content: "\00bb";
@@ -210,39 +202,47 @@ button span:after {
   right: -20px;
   transition: 0.5s;
 }
-.venteetloca {
-  display: inline-block;
-  position: relative;
+.vel{
+  background-image: url('images/vehicule3.jpg');
+  height: 100vh;
 }
-.venteetloca .texte_center {
-  background: orange;
-  opacity: 0.7;
-  position: absolute;
-  text-align: center;
-  font-family: Georgia;
-  margin-left: 150;
-  left: 20%;
-  right: 0;
-  top: 50px;
-  color: white;
-  width: 25%;
+.mask3 {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255,187,0,0.6);
+  height: 80vh; 
+  margin-top: 30px;
 }
-.venteetloca .texte_center span
-{
-  font-size: 30px;
-}
-.venteetloca .texte_center p {
+.mask3 p {
   color: black;
 }
 .foot {
-    background-color: black;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-  }
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.clubauto p {
+  color: white;
+}
+.horaires .jour {
+  color: gray;
+}
+.horaires span {
+  color: white;
+}
+.inscr {
+  color: gray;
+  font-size: small;
+}
 .fin {
   text-align: center;
   background-color: black;
-  color: gray;
+  color: lightgrey;
+  font-size: small;
+}
+.fin hr {
+  color: lightgrey;
+  width: 100%;
+  background-color: lightgray;
 }

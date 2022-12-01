@@ -1,120 +1,124 @@
+
 .macouleur1 {
     color: white;
   }
- 
+
   .macouleur2 {
     color: #cb6118;
   }
- 
+  
   .macouleur3 {
     color: black;
-    font-size: 25px;
+  
   }
- 
+  
   .macouleur4 {
     color: #cb6118;
-    font-size: 25px;
+
   }
+  
   .macouleur5 {
-   color:rgb(45, 158, 252)
+    color:rgb(45, 158, 252)
   }
-  
- body {
-    font-family: arial black;
-    font-size: 12px;
-    background-color: black;
-  }
-  .bandeau {
+.bandeau {
     background-color: black;
     color: white;
-  }
-  .conteneur {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-  header {
-    height: 80px;
-    width: auto;
-    margin: 0px auto;
-    position: relative;
-  }
-  
-  .titre {
-    font-size: 40px;
-  }
-  ul {
-  
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    opacity: 0.50;
-    height: 35px;
-  }
-  li {
-    float: right;
-  }
-  li a
-  {
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    background-color: white;
-    font-size:15px;
-  }
-  li a:hover {
-    color: white;
-    background-color: orange;
-    opacity: 1;
-  }
-.imgv3 {
-
-background-repeat: no-repeat;
-
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  min-height: 200vh;
+  font-family: 'Cabin', Sans-serif;
+ 
+}
+.telephone {
+  padding-top: 80px;
+}.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+  background: black;
+  z-index: -1;
 }
 
-.super {
-   
-       top: 250px;
-  
-  }
-  .super .fenetre {
-    background: white;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    opacity: 1;
-    position: absolute;
-    text-align: center;
-    font-family: Georgia;
-    margin-left: 150;
-    left: 20%;
-    right: 0;
-    top: 150px;
-    color: black;
-    width: 950px;
-    height: 300px;
-    flex-direction: row;
-    display: flex;
-    
-   }
-   .fen1 {
-    float: inline-end;
+#hamburger-input{
+display: none;
+}
+#hamburger-menu {
+width: 50px;
+height: 50px;
+display: block;
+border: none;
+padding: 0px;
+margin: 20px;
+position: fixed;
+right: 25px;
+background: linear-gradient(
+  to bottom, 
+  blue, blue 20%, 
+  rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 40%, 
+  blue 40%, blue 60%, 
+  rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, 
+  blue 80%, blue 100%
+);
+}
+#hamburger-menu #sidebar-menu {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: black;
+  transition: 0.3s;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+#hamburger-menu h3 {
+color: white;
+font-size: 2.2rem;
+}
+#hamburger-menu ul {
+padding-left: 0px;
+}
 
-   }
-   .fen2 {
-    float: inline-start; 
-   }
-   .message{
-    width: 300px;
-    height: 50%;}
-.super .fenetre h1 {
-    text-align: center;
+#hamburger-menu li {
+list-style-type: none;
+line-height: 3rem;
 }
-.h1
-{
-    font-size: 40px;
+#hamburger-menu a {
+color: white;
+font-size: 1.3rem;
+text-decoration: none;
 }
+#hamburger-menu a:hover {
+text-decoration: underline;
+}
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+  visibility: visible;
+  left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+ visibility: visible;
+opacity: 0.4;
+}
+
+@media screen and (max-width: 750px) {
+#main-menu {
+  display: none;
+}
+#hamburger-menu {
+  display: inline;
+}
+}
+
 button {
     display: inline-block;
     background-color: #7b38d8;
@@ -123,24 +127,50 @@ button {
     color: #eeeeee;
     text-align: center;
     font-size: 15px;
-    padding: 20px;
-    width: 100px;
+    padding: 20px;    
     height: 45px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    margin-top: 230px;
      }
-     .foot {
-      background-color: black;
-      flex-direction: row;
-      display: flex;
-      justify-content: space-around;
-      color: white;
-    }
+.formulaire {
+background-color: white;
+color: black;
+
+}
+.formu {
+    border: 1px solid white;
+    width: 80%;
+    text-align: center;
+}
+.foot {
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+  .clubauto p {
+    color: white;
+  }
+  .horaires .jour {
+    color: gray;
+  }
+  .horaires span {
+    color: white;
+  }
+  .inscr {
+    color: gray;
+    font-size: small;
+  }
   .fin {
     text-align: center;
     background-color: black;
-    color: gray;
+    color: lightgrey;
+    font-size: small;
   }
- 
+  .fin hr {
+    color: lightgrey;
+    width: 100%;
+    background-color: lightgray;
+  }

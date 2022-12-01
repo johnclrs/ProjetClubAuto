@@ -118,59 +118,32 @@ opacity: 0.4;
   display: inline;
 }
 }
-.bg-image {
-  background-image: url('images/vente-location.jpg');
-  height: 100vh;
+.menuhaut {
+    color: lightgrey;
+    background-color: white;
+    margin-top: 50px;  
 }
-.mask {
-  height: 100vh;
-  backdrop-filter: blur(0px);
-  background-color: rgba(128,128,128,0.8);
-}
-.recherche {
-  border: 1px solid black;
-  right: 2px;
-  width: 80%;   
-  font-size: large;
-  text-align: center;
-  color: white;   
-}
-.recherche select {
-  width: 80%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #f1f1f1;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.imageico {
-background-color: black;
-color: white;
-width: auto;
-text-align: center;
+ 
+/*Cache toutes les citations*/
+
+blockquote {
+  display: none;
 }
 
-.prix {
-  color: black;
-}
-input[type=number] {
-  background-color: lightgrey;
-  color: gray;
-}
-input[type=text] {
-  width: 25%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  background-color: lightgrey;
-  color: white;
-}
-.contenant {
 
-  background-color: white;
-  color: black;
+/*Affiche la citation ciblée, active*/
+
+blockquote:target {
+  display: block;
+  padding: 1em;
+  font-size:1.5em;
+  color:#fff;
+  background-color: #FF1654;
+}
+.textegris {
+  border-left:2px solid #cb6118;
+   height: 300px;
+   display: inline-block;
 }
 .foot {
   background-color: black;
